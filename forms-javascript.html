@@ -1,0 +1,137 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="a1">
+  <h1><u>REGISTRATION </u></h1>
+  <form id="form" name="myForm" action="#">
+
+    <div class="inputBox">
+      <label for="fname"><b>First Name:</b></label>
+      <input type="text" name="fname" id="fnames" placeholder="Enter First Name"
+      oninput="validate_name1()">
+      <span id="textname1"></span>
+    </div><br>
+
+    <div class="inputBox">
+      <label for="fname"><b>Middle Name :</b></label>
+      <input type="text" name="mname" id="mnames" placeholder="Enter Middle Name"
+      oninput="validate_name2()">
+      <span id="textname2"></span>
+    </div><br>
+
+    <div class="inputBox">
+      <label for="fname"><b>Last Name :</b></label>
+      <input type="text" name="lname" id="lnames" placeholder="Enter Last Name"
+      oninput="validate_name3()">
+      <span id="textname3"></span>
+    </div><br>
+
+    <div class="inputBox">
+      <label for="fname"><b>Birth-date :</b></label>
+      <input type="date" id="start" name="trip-start" min="1999-04-01" max="2021-09-01" required>
+       <span class="validity"></span>
+    </div><br>
+
+    <div class="inputBox">
+      <label for="fname"><b>Email id. :</b></label>
+      <input type="text" name="" id="email" placeholder="Enter Email Address"
+      oninput="validate_email()">
+      <span id="text"></span>
+    </div><br>
+
+
+    <div class="inputBox">
+      <label for="fname"><b>Password :</b></label>
+      <input type="password" name="" id="passwords1" placeholder="Enter Password"
+       value="" oninput="validate_password1()">
+      <span id="textpassword1"></span>
+    </div><br>
+
+
+    <div class="inputBox">
+      <label for="fname"><b>Confirm Password:</b></label>
+      <input type="password" name="" id="passwords2" placeholder="Confirm Password"
+       value="" oninput="validate_password2()">
+      <span id="textpassword2"></span>
+    </div><br>
+
+
+    <div class="inputBox">
+      <label for="fname"><b>Mobile No. :</b></label>
+      <input type="text" name="" id="mobilenumber" placeholder="Enter mobile no."
+       value="" oninput="validate_phone()">
+      <span id="textmobilenumber"></span>
+    </div><br>
+
+
+    <div class="inputBox">
+      <label for="fname"><b>Gender :   </b></label>
+      Male
+      <input type="radio" name="container"
+       value="" oninput="validate_radio()">
+      Female
+       <input type="radio" name="container"
+        value="" oninput="validate_radio()">
+      <span id="textradio"></span>
+    </div>
+
+   <br>
+
+
+   <div class="inputBox">
+    <label for="fname"><b>Country :</b></label>
+     <select id ="select">
+       <option>India</option>
+       <option>USA</option>
+       <option>Australia</option>
+       <option>UK</option>
+       <option>Germany</option>
+       <option>Italy</option>
+     </select>
+   </div><br>
+
+
+    <div class="inputBox">
+      <label for="fname"><b>Address :</b></label>
+      <textarea id="addressid" rows="4" cols="30" name="" placeholder="Enter address here"></textarea>
+    </div><br>
+
+    <div class="inputBox">
+      <label for="fname"><b>Pin code :</b></label>
+      <input type="text" name="" id="pin" placeholder="Enter Pin code"
+       value="" oninput="validate_pin()">
+      <span id="textpin"></span>
+    </div>
+<br>
+
+    <div class="inputBox">
+      <label for="fname"><b>Education level :</b></label>
+      <select id ="select">
+        <option>None</option>
+        <option>B.E</option>
+        <option>M.E</option>
+        <option>Diploma</option>
+      </select>
+    </div><br>
+
+    <div class="inputBox">
+      <label for="fname"><b>Suggestion box :</b></label>
+      <textarea id="addressid" rows="4" cols="30" name="" placeholder="Enter suggestion here"></textarea>
+    </div>
+    <br><br>
+
+    <button class="button" type="submit" form="" value="Submit">
+      Submit</button>
+    <button class="button" type="submit" form="" value="reset">
+      Reset</button><br>
+
+
+
+</form>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
