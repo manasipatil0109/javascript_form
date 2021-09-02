@@ -29,15 +29,6 @@ function validate_name1()
       textname1.innerHTML = "Name is valid";
       textname1.style.color = "#006400";
     }
-
-
-    /*else
-    {
-      textname.innerHTML = "Correct ";
-      textname.style.color = "#00ff00";
-    }*/
-
-
   }
 
   function validate_name2()
@@ -113,13 +104,6 @@ function validate_name1()
       textname3.innerHTML = "Name is valid";
       textname3.style.color = "#006400";
     }
-
-
-    /*else
-    {
-      textname.innerHTML = "Correct ";
-      textname.style.color = "#00ff00";
-    }*/
 
 
   }
