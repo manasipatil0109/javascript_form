@@ -1,3 +1,13 @@
+function Submit()
+{
+  document.getElementById("form").submit();
+}
+function Reset()
+{
+  document.getElementById("form").reset();
+}
+
+
 function validate_name1()
   {
     //var name= document.getElementById("name").value;
